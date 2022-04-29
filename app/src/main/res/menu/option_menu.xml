@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+
+<item
+        android:title="PROFILE"
+        android:orderInCategory="1"
+        android:id="@+id/o1"
+        >
+    <menu>
+        <item
+            android:title="Name"
+            android:orderInCategory="1"
+            android:id="@+id/order11"
+            />
+        <item
+            android:title="Address"
+            android:orderInCategory="1"
+            android:id="@+id/order12"
+            />
+        <item
+            android:title="Payment"
+            android:orderInCategory="1"
+            android:id="@+id/order13"
+            />
+
+    </menu>
+</item>
+<item
+
+        android:title="SIGN UP"
+        android:orderInCategory="3"
+        android:id="@+id/o2"
+
+        ></item>
+    <item
+
+        android:title="CONTACT"
+        android:orderInCategory="2"
+        android:id="@+id/o3"
+        >
+        <menu>
+            <item
+                android:title="Phone"
+                android:orderInCategory="1"
+                android:id="@+id/order21"
+                />
+            <item
+                android:title="Email"
+                android:orderInCategory="1"
+                android:id="@+id/order22"
+                />
+
+
+        </menu>
+    </item>
+
+
+</menu>
